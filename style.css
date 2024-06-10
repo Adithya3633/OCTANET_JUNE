@@ -1,0 +1,147 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  background-image: url('ai-future.jpg');
+  background-size: cover;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #003366; /* Changed color to Dark Blue */
+}
+
+#hero p.highlight {
+  font-size: 1.2em;
+  color: #1e90ff; /* Changed color to Electric Blue */
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  color: #003366; /* Changed color to Dark Blue */
+}
+
+#about, #features, #testimonials {
+  margin-bottom: 20px;
+}
+
+.feature {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature img {
+  width: 400px; /* Adjust the width as needed */
+  height: auto;
+  margin-top: 20px;
+}
+
+.feature h3 {
+  margin-top: 20px;
+  color: #003366;
+}
+
+.feature p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Additional CSS for contact form */
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Animation for testimonials */
+#testimonials {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#testimonials.active {
+  opacity: 1;
+}
