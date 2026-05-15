@@ -170,7 +170,5 @@ This project is open source and available under the MIT License. Feel free to us
 ---
 
 **Created by**: Adithya3633  
-**Last Updated**: May 15, 2026  
-**Status**: Active Development
 
 For more information about AI and ML, visit leading tech publications and research papers in the field.
